@@ -1,0 +1,29 @@
+.flex-publish--btn-in-end-side-insd {
+  display: flex;
+  justify-content: center;
+}
+
+.selected-image-and-remove-button {
+  display: flex;
+  gap: 20px;
+  /* padding-top: 2rem; */
+}
+
+.image-addded-in-shoi-boi-for-profile-pic {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #f6f6f6;
+  border-radius: 5px;
+}
+
+.open-file-btn-in-create-page {
+  text-align: center;
+  width: 10em;
+  border: 1px solid;
+  border: 1px solid #c5c3c3;
+  margin: 2px 0px 0px 0px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}

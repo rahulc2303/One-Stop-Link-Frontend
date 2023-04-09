@@ -1,0 +1,29 @@
+.cpm-smartphone {
+  /* position: relative; */
+  width: 260px;
+  height: 540px;
+  /* margin: auto; */
+  border: 10px black solid;
+  border-radius: 40px;
+  margin-top: 10px;
+  z-index: -1;
+  overflow-y: scroll;
+}
+
+.cpm-photo-logo-smartphone {
+  height: 90px;
+  width: 90px;
+  margin-top: 10%;
+  border-radius: 50%;
+}
+
+.user-name-in-phone-view-sho-bio {
+  padding: 10px;
+  text-align: center;
+}
+
+.user-description-in-one-phone-view-sect {
+  text-align: center;
+  padding: 0px 15px 10px 15px;
+  font-size: 10px;
+}

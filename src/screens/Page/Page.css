@@ -1,0 +1,273 @@
+/* main container css  */
+.main-container-biolink-socials-output {
+    height: 100vh;
+    justify-content: center;
+    padding-bottom: 5em;
+  }
+  
+  /* Css For Uploded img icon */
+  .upload-img-top {
+    text-align: center;
+    display: block;
+    padding: 2em;
+  }
+  
+  .photo-logo-smartphone-screen {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+  /* CSS for social icons */
+  .social-logos-smartphone-screen {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .social-logos-biolink {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  
+    margin-top: 30px;
+  }
+  
+  /* css for title that we given */
+  .title-input-field-smartphone-screen {
+    text-align: center;
+    margin-top: 1rem;
+    border: none;
+  }
+  
+  .input-show-output-biolink {
+    border-radius: 5px;
+    width: 50%;
+  
+    margin: auto;
+  }
+  /* css for username that we given */
+  
+  .username-show-output-biolink {
+    border-radius: 5px;
+    width: 50%;
+  
+    margin: auto;
+  }
+  
+  /* CSS for video that is our ouput video section */
+  .video-show-output-biolink {
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 350px;
+    width: 650px;
+    height: 350px;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 0 2px 2px 2px #888888;
+  }
+  
+  /* alignment of the react player */
+  
+  .react-player-youtube {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .youtube-text-over-reactplayer {
+    margin-bottom: 1rem;
+  }
+  
+  .font-size-for-name-in-user-side {
+    padding: 5px;
+    width: 50em;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .proilfe-description-ajn {
+    padding: 5px;
+    width: 50em;
+    text-align: center;
+  }
+  
+  .bio-dashboard-admin-rectangle-style {
+    background-color: #ffffff;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    min-width: 50%;
+    margin: 2em 0;
+  
+    overflow-wrap: break-word;
+    padding: 5px;
+    border: 1px solid rgb(112, 110, 110);
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: var(
+      --p-card-shadow,
+      0 0 0 1px rgba(63, 63, 68, 0.05),
+      0 1px 3px 0 rgba(63, 63, 68, 0.15)
+    );
+  }
+  .bio-dashboard-admin-rectangle-style-with-border-radius {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 2em 0;
+    min-width: 50%;
+    overflow-wrap: break-word;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: var(
+      --p-card-shadow,
+      0 0 0 1px rgba(63, 63, 68, 0.05),
+      0 1px 3px 0 rgba(63, 63, 68, 0.15)
+    );
+    margin-bottom: 2em;
+    cursor: pointer;
+  }
+  .bio-dashboard-admin-oval-shape {
+    background-color: #ffffff;
+    width: 50%;
+    text-align: center;
+    margin: 2em 0;
+    min-width: 50%;
+    overflow-wrap: break-word;
+    border: 1px solid rgb(112, 110, 110);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 35px;
+    box-shadow: var(
+      --p-card-shadow,
+      0 0 0 1px rgba(63, 63, 68, 0.05),
+      0 1px 3px 0 rgba(63, 63, 68, 0.15)
+    );
+  }
+  /* ----------  */
+  
+  .bio-dasboard-admin-video-shape {
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    padding: 10px 15px 15px 15px;
+    --tw-shadow: 0 1px 3px 0rgb (0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0var (--tw-shadow-color),
+      0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    height: 29em;
+    width: 45em;
+  }
+  .bio-dasboard-admin-video-shape-with-border-radius {
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    padding: 10px 15px 15px 15px;
+    border-radius: 6px;
+    --tw-shadow: 0 1px 3px 0rgb (0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0var (--tw-shadow-color),
+      0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    height: 29em;
+    width: 42em;
+  }
+  
+  .bio-dasboard-admin-video-oval-shape {
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    border: 1px solid lightgray;
+    padding: 10px 15px 15px 15px;
+    font-size: 12px;
+    border-radius: 30px;
+    --tw-shadow: 0 1px 3px 0rgb (0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0var (--tw-shadow-color),
+      0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    height: 29em;
+    width: 45em;
+    margin: 20px 0;
+  }
+  
+  .title-for-video-shobio-inside-asd {
+    font-family: inherit;
+    margin: 0px 0px 15px 0px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .error-page-styling {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+  }
+  .error-message {
+    text-align: center;
+    /* line-height: 2rem; */
+  }
+  .error-msg-first-heading {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .error-msg-para-text {
+    font-size: 13px;
+  }
+  .error-page-button {
+    background-color: #ffd901;
+    width: 130px;
+    height: 55px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .ince-sbs-sbhjsdj-djns {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .flx-sinc-sadjhasc-ahjbas {
+    text-align: center;
+  }
+  
+  .higt-of-shobio-ibds-nsz {
+    height: 2em;
+    margin-bottom: 1em;
+  }
+  
+  /*  CSS for Responsive */
+  @media (min-width: 320px) and (max-width: 425px) {
+    .video-show-output-biolink {
+      width: 100px;
+    }
+    .bio-dashboard-admin-rectangle-style-with-border-radius {
+      width: 100%;
+      margin: 1em;
+      overflow-wrap: break-word;
+      padding: 15px;
+      font-weight: 400;
+      font-size: 20px;
+      border-radius: 6px;
+      text-align: center;
+      box-shadow: var(
+        --p-card-shadow,
+        0 0 0 1px rgba(63, 63, 68, 0.05),
+        0 1px 3px 0 rgba(63, 63, 68, 0.15)
+      );
+      margin-bottom: 1em;
+      cursor: pointer;
+      margin-top: 2em;
+    }
+  
+    .bio-dasboard-admin-video-shape-with-border-radius {
+      width: 90%;
+      height: auto;
+      margin: 0em 1em;
+    }
+  }
+  

@@ -1,0 +1,95 @@
+.bcc-navbr-main-pop-up-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  z-index: 101;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.modalContainer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  top: 0;
+  border-radius: 5px;
+  background: #000;
+  position: fixed;
+  overflow-x: hidden;
+  transition: opacity 0.5s ease-in;
+  border-bottom: 1px solid #333;
+  animation-duration: 400ms !important;
+  animation-iteration-count: 1 !important;
+  animation-fill-mode: both !important;
+  animation-name: keyframe_d37zz3 !important;
+}
+
+.modalClose {
+  top: 6px;
+  position: absolute;
+  color: #000;
+  right: 16px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.flex-box-of-new-navabr-pop-close-section-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 120px 55px 120px;
+}
+
+.Logoname-in-navabr-off-pop-up-sectionn {
+  font-size: 32px;
+  color: #fff;
+  margin-right: 1em;
+}
+
+.flex-d-rectionn-login-and-close-one-part {
+  display: flex;
+  gap: 6em;
+  align-items: center;
+}
+
+/* <div className="modalClose" onClick={props.onClose}>
+<img
+  src={"https://cdn-icons-png.flaticon.com/512/1828/1828778.png"}
+  alt=""
+  style={{ height: "15px", width: "15px" }}
+/>
+</div> */
+
+/* ---------- Responsive ------  */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media (min-width: 320px) and (max-width: 425px) {
+  .navbar-main-pop-up-container {
+    overflow: scroll;
+  }
+
+  .flex-box-of-new-navabr-pop-close-section-navbar {
+    position: fixed;
+    background: #000;
+    width: 100%;
+    padding: 20px;
+  }
+  .Flex-in-modal-section-area-one {
+    display: block;
+    margin-top: 6em;
+  }
+  .width-for-one-top-section-in-pop-up {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .Header-in-pop-up-of-main-navabr {
+    margin-bottom: 0.5em;
+  }
+  .para-ins-pop-9s-dnik {
+    padding-bottom: 10px;
+  }
+}

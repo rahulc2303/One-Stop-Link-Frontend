@@ -1,0 +1,106 @@
+.navabr-option-in-secound-navabr {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.navbar-title {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.width-of-navbar-in-secound-section-part {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.flex-navbar-of-main-website {
+  border-radius: 51px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  padding: 14px 35px;
+  width: 80em;
+  background: #fff;
+  margin-top: 1em;
+}
+
+.flex-option-with-logo-in-navabr {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.login-btn-in-navabr-secound {
+  border: none;
+  padding: 0;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 18px;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-section-of-navbar-in-navabr-flex-section {
+  align-items: center;
+  display: flex;
+  gap: 25px;
+
+  cursor: pointer;
+}
+
+.signup-btn-for-signup-in-secound-navbar {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 12px 22px;
+  background: #222222;
+  border: 1px solid #707070;
+  margin-left: 1em;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.main-sho-bio-in-navabr-section-ajc {
+  height: 32px;
+}
+
+/* ---------- Responsive ------  */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-navbar-of-main-website {
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    padding: 10px 15px;
+    width: 100%;
+    background: #fff;
+    margin-top: 1em;
+  }
+
+  .flex-option-with-logo-in-navabr {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navabr-option-in-secound-navabr {
+    font-size: 10px;
+  }
+
+  .signup-btn-for-signup-in-secound-navbar {
+    font-weight: 600;
+    font-size: 10px;
+    padding: 5px 17px;
+  }
+  .main-sho-bio-in-navabr-section-ajc {
+    height: 20px;
+  }
+}

@@ -1,0 +1,62 @@
+.modalFixedBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.modalContainer {
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.modalClose {
+  top: 6px;
+  position: absolute;
+  color: #000;
+  right: 16px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.logs-modl-for-jwerllry-hdk {
+  width: 30em;
+  height: 20em;
+  padding: 40px;
+}
+
+.get-otp-at-modal-btn-sinside {
+  margin-top: 1em;
+  padding: 13px 15px;
+  border-radius: 5px;
+  background: red;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.label-at-login-modla-in-simple-view {
+  color: #fff;
+}
+
+.lbels-fr-logn-btn-modl-sik {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: var(--main-website-color);
+  padding-bottom: 2em;
+}

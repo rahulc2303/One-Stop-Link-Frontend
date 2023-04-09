@@ -1,0 +1,53 @@
+.modalFixedBg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+}
+
+.Sociacoa-pop-up-in-add-links-page {
+  top: 0;
+  bottom: 0;
+  width: 35%;
+  right: 0;
+  min-height: 150px;
+  border-radius: 5px;
+  background: #fff;
+  position: fixed;
+  overflow-x: hidden;
+  transition: opacity 0.5s ease-in;
+  border-bottom: 1px solid #333;
+  animation-duration: 400ms !important;
+  animation-iteration-count: 1 !important;
+  animation-fill-mode: both !important;
+  animation-name: keyframe_d37zz3 !important;
+  border: none;
+  box-shadow: var(
+    --p-card-shadow,
+    0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15)
+  );
+}
+
+.modalClose {
+  top: 6px;
+  position: absolute;
+  color: #000;
+  right: 16px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media (min-width: 320px) and (max-width: 425px) {
+  .Sociacoa-pop-up-in-add-links-page {
+    width: 100%;
+  }
+}

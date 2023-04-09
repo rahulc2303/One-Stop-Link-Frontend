@@ -1,0 +1,34 @@
+/* Error message container */
+.error-message-container-header {
+  background-color: #fde6e6;
+  /* width: 40em; */
+  height: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  padding-left: 2em;
+  box-shadow: var(
+    --p-card-shadow,
+    0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15)
+  );
+  padding-right: 2em;
+  margin-bottom: 1em;
+}
+
+/* CSS for error icon */
+.for-error-icon-and-msg-heading {
+  display: flex;
+  gap: 10px;
+}
+/* CSS for error mesg */
+
+.what-is-error-text {
+  padding-top: 0.5rem;
+  padding-left: 3.7em;
+  font-size:13px;
+}
+/* CSS for Unorder List */
+
+.text-error-unorderlist {
+  list-style-type: disc;
+}

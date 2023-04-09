@@ -1,0 +1,107 @@
+.uhijnkmlsdoapsklz {
+  display: block;
+  fill: none;
+  height: 14px;
+  width: 14px;
+  stroke: currentcolor;
+  stroke-width: 4;
+  overflow: visible;
+  margin-top: 4px;
+}
+
+.ull-list-of-footer-in-bottom-area {
+  gap: 20px;
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.flex-options-of-footer-in-two-ways-inline {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #dddddd;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 35px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.flex-bt-for-onpening-pop-of-new-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #222 !important;
+}
+
+.Flexinside-footer-with-padding-inside-in {
+  display: flex;
+  gap: 100px;
+  padding: 35px 45px;
+}
+
+.Header-in-header-tags-with-pad {
+  font-size: 16px;
+  margin: 10px;
+  color: #222222 !important;
+}
+
+.class-for-pointer-tags-in-footers-in-it {
+  margin: 20px 10px;
+  color: #484848;
+  font-size: 14px;
+}
+
+.fonr-size-in-respo {
+  text-decoration: underline;
+}
+
+.flex-insta-and-id-shop-and-social {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.flex-gap-social-icons-asinxa {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media (min-width: 320px) and (max-width: 425px) {
+  .Flexinside-footer-with-padding-inside-in {
+    display: block;
+    gap: 100px;
+    height: 20em;
+    overflow-x: scroll;
+    padding: 35px 45px;
+  }
+
+  .hide-in-respo-ns-cj-camas {
+    display: none;
+  }
+  .fonr-size-in-respo {
+    text-decoration: underline;
+    font-size: 10px;
+  }
+  .uhijnkmlsdoapsklz {
+    width: 10px;
+    height: 10px;
+  }
+  .flex-options-of-footer-in-two-ways-inline {
+    padding: 10px;
+  }
+
+  .flex-insta-and-id-shop-and-social {
+    display: block;
+  }
+  .flex-gap-social-icons-asinxa {
+    margin-top: 12px;
+  }
+}

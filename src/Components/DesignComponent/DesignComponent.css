@@ -1,0 +1,109 @@
+/* Css for the profile card block */
+
+/* Css For profile card content */
+.profile-card-content {
+  margin-top: 1rem;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.Flex-color-and-add-images-in-style-bio {
+  display: flex;
+  padding: 0px 10px;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.active-color-one-bottom-border-in-side {
+  border-bottom: 3px solid #000;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.Flex-color-box-and-input-for-color-background {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.Color-box-in-side-of-innput-deing-sa {
+  border-radius: 8px;
+  width: 60px;
+  height: 40px;
+  background: #000;
+}
+
+.link-back-design-color-or-image-section {
+  border-radius: 10px;
+  width: 560px;
+  display: block;
+  box-shadow: var(
+    --p-card-shadow,
+    0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15)
+  );
+  margin: auto;
+  margin-top: 1rem;
+  background: #fff;
+}
+
+.font-header-in-link-style-design-compo {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.Box-for-diff-shaeps-in-card {
+  border-radius: 5px;
+  width: 90px;
+  display: flex;
+  height: 80px;
+  border: 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.Active-Box-for-diff-shaeps-in-card {
+  border-radius: 5px;
+  width: 90px;
+  display: flex;
+  height: 80px;
+  border: 1px solid blue;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-of-smpleiasdf {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+
+  background: #e6e6e6;
+}
+
+.color-picker0style-in-side-design-compo {
+  width: 60px;
+  padding: 0;
+  margin: 0;
+  border-top-width: 0px;
+  cursor: pointer;
+  height: 40px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  background: none;
+  border-radius: 10px;
+  border-left-width: 0px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media (min-width: 320px) and (max-width: 425px) {
+  .link-back-design-color-or-image-section {
+    width: 100%;
+  }
+
+  .active-color-one-bottom-border-in-side {
+    border-bottom: 2px solid #000;
+    padding: 8px;
+    font-size: 14px;
+  }
+}

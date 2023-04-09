@@ -1,0 +1,125 @@
+.linkTab-link-url {
+  display: inline-block;
+  width: 25em;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.three-dots-edit {
+  justify-content: end;
+  font-size: 34px;
+  align-items: center;
+}
+.addlink-linkshow {
+  display: flex;
+  justify-content: "space-between";
+  width: "80%";
+  margin-top: 1rem;
+  align-items: center;
+  box-shadow: var(
+    --p-card-shadow,
+    0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15)
+  );
+  border-radius: 5px;
+}
+
+.flex-two-btn-in-links-for-website-and-youtube {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.box-of-links-inside-dashboard {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 35em;
+  /* border: 1px solid; */
+  padding: 20px;
+  box-shadow: var(
+    --p-card-shadow,
+    0 0 0 1px rgba(63, 63, 68, 0.05),
+    0 1px 3px 0 rgba(63, 63, 68, 0.15)
+  );
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.box-with-no-flex-img-in-it {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.youtube-png-at-links-in-bjcx {
+  height: 45px;
+}
+
+.edit-btn-for-ink-added-at-dashboard {
+  border-top-right-radius: 5px;
+  background: grey;
+  height: 5.8em;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.name-of-tilte-in-shaep-links {
+  color: #0d0c22;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-bottom: 5px;
+  width: 25em;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.Add-social-niebe-ojn-add-social-link-add-btn {
+  text-align: center;
+  width: 17em;
+  /* height: 43px; */
+  /* background-color: rgb(255, 217, 1); */
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid;
+  padding: 12px;
+}
+.add-link-social-icons-jcksa-ajk-jks {
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media (min-width: 320px) and (max-width: 425px) {
+  .flex-two-btn-in-links-for-website-and-youtube {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    margin: 10px 0px;
+  }
+  .Add-social-niebe-ojn-add-social-link-add-btn {
+    width: 100%;
+  }
+  .add-link-social-icons-jcksa-ajk-jks {
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  .linkTab-link-url {
+    width: 10em;
+  }
+  .name-of-tilte-in-shaep-links {
+    width: 11em;
+  }
+  .box-of-links-inside-dashboard {
+    width: 100%;
+  }
+}

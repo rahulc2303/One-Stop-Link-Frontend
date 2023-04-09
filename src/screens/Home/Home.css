@@ -1,0 +1,270 @@
+.fullscreen-background-color-full-view {
+    background: #ffd901;
+    height: 100vh;
+  }
+  
+  .main-header-at-wesite-in-landing-section {
+    text-align: center;
+    font-size: 82px;
+    letter-spacing: -0.5px;
+  }
+  
+  .create-page-btn-at-center-position {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 13px 25px;
+    background: #222222;
+    border: 1px solid #707070;
+    /* margin-left: 1em; */
+    color: #fff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .input-for-newname-of-page-username {
+    border-bottom-left-radius: 8px;
+    padding: 14px 12px 12px 1px;
+    width: 13em;
+    border-top-left-radius: 8px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .flex-ceneter-input-section {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em 1em 0em;
+    /* align-items: center; */
+  }
+  
+  .para-small-kl-hjd-oop-ssj {
+    text-align: center;
+    color: #222222;
+    font-weight: 500;
+  }
+  
+  /* -------- Secound Section Starts -----  */
+  
+  .Secound-header-in-website-page-only-in-wesi-sjf-df {
+    width: 20em;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 100px;
+    background: #ffd901;
+  }
+  
+  .flex-steps-infor-pasl-xir-sdc {
+    display: flex;
+    padding-top: 180px;
+    gap: 5em;
+    justify-content: center;
+    background: #ffd901;
+    align-items: center;
+  }
+  
+  .Box-of-left-img-in-flex-options {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #222;
+    border-radius: 20px;
+  }
+  
+  .flex-options-header-in-polsa-m6 {
+    font-size: 52px;
+  }
+  
+  .para-at-flex-options-i-as-edn {
+    font-size: 24px;
+    margin: 1em 0em;
+  }
+  
+  .get-started-bt-medium-in-ax {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 20px;
+    background: #222222;
+    border: 1px solid #707070;
+    /* margin-left: 1em; */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  
+  /* ------------- Section three -------  */
+  
+  .Circle-img-of-user-in-shoboi {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border: 1px solid #707070;
+  }
+  .circular-img {
+    border-radius: 50%;
+    width: 148px;
+    height: 148px;
+    object-fit: contain;
+  }
+  
+  .cenetr-img-div-of-img-s {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .User-name-header-pe84-xc8 {
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  
+  .para-link-of-user-go-boi {
+    text-align: center;
+    color: #222;
+  }
+  
+  .flex-center-user-of-sho-boi-in9 {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+  }
+  
+  .user-details-in-pawebsite {
+    padding: 20px 0px;
+  }
+  
+  .flex-input-with-isde-alradey-content-de {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    /* padding: 12px; */
+    background: #fff;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  }
+  
+  .shop-io-sw-xjemswqa {
+    padding: 12px 0px 12px 12px;
+  }
+  
+  .without-respos-in-respo-cj {
+    display: none;
+  }
+  
+  .wdaedgtfuhijlkuytreawQWE {
+    width: 598px;
+    height: 460px;
+    border-radius: 20px;
+  }
+  
+  .Box-of-left-img-in-flex-options-for-anylutics {
+    width: 600px;
+    height: 462px;
+    border: 1px solid #222;
+    border-radius: 20px;
+  }
+  
+  /* ---------- Responsive ------  */
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media (min-width: 320px) and (max-width: 425px) {
+    .main-header-at-wesite-in-landing-section {
+      font-size: 44px;
+    }
+  
+    .without-respos-in-respo-cj {
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 13px 25px;
+      background: #222222;
+      border: 1px solid #707070;
+      color: #fff;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+      display: block;
+    }
+  
+    .create-page-btn-at-center-position {
+      display: none;
+    }
+    .input-for-newname-of-page-username {
+      border-radius: 5px;
+    }
+  
+    .flex-center-user-of-sho-boi-in9 {
+      display: block;
+      justify-content: center;
+      gap: 5em;
+    }
+  
+    .input-for-newname-of-page-username {
+      border-bottom-left-radius: 8px;
+      padding: 10px 12px 10px 1px;
+      width: 13em;
+      border-top-left-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+    .shop-io-sw-xjemswqa {
+      padding: 8px 0px 8px 8px;
+    }
+  
+    .para-small-kl-hjd-oop-ssj {
+      font-size: 12px;
+    }
+    .flex-ceneter-input-section {
+      margin: 1em;
+      display: block;
+    }
+    .Secound-header-in-website-page-only-in-wesi-sjf-df {
+      width: 100%;
+      text-align: center;
+      font-size: 27px;
+      padding: 50px 20px 0px 20px;
+      background: #ffd901;
+    }
+  
+    .Box-of-left-img-in-flex-options {
+      width: 100%;
+      height: 300px;
+      border: 1px solid #222;
+      border-radius: 20px;
+    }
+  
+    .flex-steps-infor-pasl-xir-sdc {
+      display: block;
+      padding: 60px 20px 20px 20px;
+    }
+  
+    .flex-options-header-in-polsa-m6 {
+      font-size: 25px;
+      text-align: center;
+      margin-top: 1em;
+    }
+  
+    .para-at-flex-options-i-as-edn {
+      font-size: 16px;
+      text-align: center;
+      margin: 1em 0em;
+    }
+    .flex-in-respo-jsnc-akjca-kmsa {
+      display: flex;
+      justify-content: center;
+    }
+    .wdaedgtfuhijlkuytreawQWE {
+      width: 100%;
+      height: 200px;
+    }
+    .Box-of-left-img-in-flex-options-for-anylutics {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  
