@@ -1,7 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "./dashboardMobile.css";
-import DiscordSvg from "../../Assets/Svg/discordSvg";
 import FacebookSvg from "../../Assets/Svg/facebookSvg";
 import InstagramSvg from "../../Assets/Svg/instagramSvg";
 import TwitterSvg from "../../Assets/Svg/twitterSvg";
@@ -10,7 +9,6 @@ import LinkedinSvg from "../../Assets/Svg/linkedinSvg";
 import SnapChatSvg from "../../Assets/Svg/snapChatSvg";
 import PinterestSvg from "../../Assets/Svg/pinterestSvg";
 import GithubSvg from "../../Assets/Svg/githubSvg";
-import ShoBioLogo from "../../Assets/Images/shoboilogo.png";
 import UserIn from "../../Assets/Images/user.png";
 
 const DashboardMobile = (props) => {

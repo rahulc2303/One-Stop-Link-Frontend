@@ -1,5 +1,4 @@
 import React from "react";
-import LogoShoBio from "../../Assets/Images/shoboilogo.png";
 import "./dashboardnavbar.css";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";

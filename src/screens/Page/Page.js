@@ -15,7 +15,6 @@ import PinterestSvg from "../../Assets/Svg/pinterestSvg";
 import GithubSvg from "../../Assets/Svg/githubSvg";
 import ReactPlayer from "react-player";
 import User from "../../Assets/Images/user.png";
-import Shobio from "../../Assets/Images/shoboilogo.png";
 import { getImageFromBackend } from "../../helpers/getImageFromBackend";
 
 const Page = () => {

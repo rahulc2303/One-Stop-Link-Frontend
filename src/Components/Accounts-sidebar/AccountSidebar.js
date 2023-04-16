@@ -1,6 +1,6 @@
 import React from "react";
 import "./Accountsidebar.css";
-import Logo from "../../Assets/Images/SignIn/shopify.png";
+
 
 function AccountSidebar() {
   return (

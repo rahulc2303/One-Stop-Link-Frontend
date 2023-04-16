@@ -41,7 +41,7 @@
   margin-top: 1em;
   padding: 13px 15px;
   border-radius: 5px;
-  background: red;
+  background: var(--main-website-color);
   border: none;
   width: 100%;
   font-size: 14px;
@@ -57,6 +57,6 @@
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 1px;
-  color: var(--main-website-color);
+  color: black;
   padding-bottom: 2em;
 }

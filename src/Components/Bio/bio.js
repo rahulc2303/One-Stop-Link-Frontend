@@ -5,8 +5,6 @@ import {
   InputWithData,
 } from "../Inputs/input";
 import "./bio.css";
-
-import inputError from "../../Assets/Images/input_error.png";
 import InputErrorMessage from "../InputErrorMessage/inputErrorMessage";
 
 const Bio = (props) => {

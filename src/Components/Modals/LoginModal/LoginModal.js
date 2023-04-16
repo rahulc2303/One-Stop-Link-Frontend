@@ -235,7 +235,7 @@ const LoginModal = (props) => {
     return (
       <>
         <div>
-          <h5 className="lbels-fr-logn-btn-modl-sik">Login</h5>
+          <h5 className="lbels-fr-logn-btn-modl-sik">SignUp/Login</h5>
           {
             showErrorMessage &&
             <ErrorMessage
@@ -310,7 +310,7 @@ const LoginModal = (props) => {
         {/* input for phone number  */}
 
         <div>
-          <h5 className="lbels-fr-logn-btn-modl-sik">Login</h5>
+          <h5 className="lbels-fr-logn-btn-modl-sik">SignUp/Login</h5>
           {
             showErrorMessage &&
             <ErrorMessage
