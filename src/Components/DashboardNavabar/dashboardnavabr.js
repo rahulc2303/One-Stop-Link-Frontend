@@ -4,6 +4,7 @@ import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { userSignoutAction } from "../../redux/action/auth.action";
+import logoutIcon from "../../Assets/Images/logout.png"
 
 const DashboardNavabar = (props) => {
   const auth = useSelector((state) => state.auth);
@@ -17,7 +18,9 @@ const DashboardNavabar = (props) => {
   const shareNavBar = () => {
     return (
       <div className="flex-dash-inside-nav-reverse-part-df">
-
+        <div onClick={logOut}>
+          <img src={logoutIcon} alt="logout" className="logout-button" />
+        </div>
 
         <button className="user-dropbtn">
           {auth?.email ?? "Guest User"}
@@ -37,9 +40,13 @@ const DashboardNavabar = (props) => {
     return (
       <>
         <div className="flex-dash-inside-nav-reverse-part-df">
+          <div onClick={logOut}>
+            <img src={logoutIcon} alt="logout" className="logout-button" />
+          </div>
           <button className="user-dropbtn">
             {auth?.email ?? "Guest User"}
           </button>
+
         </div>
       </>
     );

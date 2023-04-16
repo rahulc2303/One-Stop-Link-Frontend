@@ -18,6 +18,7 @@
   font-weight: 700;
 }
 
+
 .Share-btn-for-sahring-page-profile {
   font-weight: 100;
   font-size: 14px;
@@ -107,7 +108,10 @@
   justify-content: center;
   align-items: center;
 }
-
+.logout-button{
+  width: 15px;
+  height: 15px;
+}
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media (min-width: 320px) and (max-width: 425px) {
   .dashboard-flex-navabr-in-dashboard {
