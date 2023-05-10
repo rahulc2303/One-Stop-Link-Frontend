@@ -282,11 +282,11 @@ const LoginModal = (props) => {
           {/* After entering OTP verify & proceed section  */}
           {otpSubmit ? (
             <button type="submit" className="get-otp-at-modal-btn-sinside">
-              Verify & Proceed
+              Verify & Proceed...
             </button>
           ) : minutes === 0 && seconds === 0 ? (
             <button type="submit" className="get-otp-at-modal-btn-sinside">
-              Verify & Proceed
+              Verify & Proceed...
             </button>
           ) : (
             <>
@@ -340,7 +340,7 @@ const LoginModal = (props) => {
 
         {submit ? (
           <button type="submit" className="get-otp-at-modal-btn-sinside">
-            Get OTP
+            Get OTP...
           </button>
         ) : (
           <>
